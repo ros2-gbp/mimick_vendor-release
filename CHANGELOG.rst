@@ -2,6 +2,13 @@
 Changelog for package mimick_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.3 (2020-12-08)
+------------------
+* Update tag for new cmake version requirement (`#14 <https://github.com/ros2/mimick_vendor/issues/14>`_)
+* Export include directories (`#13 <https://github.com/ros2/mimick_vendor/issues/13>`_)
+* Update package maintainers (`#10 <https://github.com/ros2/mimick_vendor/issues/10>`_)
+* Contributors: Michel Hidalgo, Stephen Brawner
+
 0.2.2 (2020-09-18)
 ------------------
 * Suppress cppcheck for MMK_MANGLE\_ (`#8 <https://github.com/ros2/mimick_vendor/issues/8>`_)
