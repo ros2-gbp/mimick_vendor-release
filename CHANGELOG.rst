@@ -2,6 +2,12 @@
 Changelog for package mimick_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.4 (2021-01-25)
+------------------
+* Add missing build tool dependency on 'git' (`#16 <https://github.com/ros2/mimick_vendor/issues/16>`_)
+* Update tag for armv7l support. (`#15 <https://github.com/ros2/mimick_vendor/issues/15>`_)
+* Contributors: Michel Hidalgo, Scott K Logan
+
 0.2.3 (2020-12-08)
 ------------------
 * Update tag for new cmake version requirement (`#14 <https://github.com/ros2/mimick_vendor/issues/14>`_)
