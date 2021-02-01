@@ -31,6 +31,9 @@ Source0:        %{name}-%{version}.tar.gz
 %autosetup -p1
 
 %build
+# Suppress fortification, which conflicts with Mimick's -O0 requirement
+export CFLAGS="${CFLAGS:-%{optflags}} -Wp,-U_FORTIFY_SOURCE"
+
 # In case we're installing to a non-standard location, look for a setup.sh
 # in the install tree and source it.  It will set things like
 # CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
