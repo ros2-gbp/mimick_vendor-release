@@ -48,6 +48,10 @@ Wrapper around mimick, it provides an ExternalProject build of mimick.
 
 
 %build
+# Suppress fortification, which conflicts with Mimick's -O0 requirement
+%undefine _annotated_build
+export CFLAGS="${CFLAGS:-%{optflags}} -Wp,-U_FORTIFY_SOURCE"
+
 %cmake \
     -UINCLUDE_INSTALL_DIR \
     -ULIB_INSTALL_DIR \
