@@ -2,6 +2,12 @@
 Changelog for package mimick_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.5 (2021-02-01)
+------------------
+* Suppress update of pinned git repository (`#17 <https://github.com/ros2/mimick_vendor/issues/17>`_)
+* Don't overwrite -Wno-dev CMake argument (`#18 <https://github.com/ros2/mimick_vendor/issues/18>`_)
+* Contributors: Scott K Logan
+
 0.2.4 (2021-01-25)
 ------------------
 * Add missing build tool dependency on 'git' (`#16 <https://github.com/ros2/mimick_vendor/issues/16>`_)

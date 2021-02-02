@@ -8,7 +8,7 @@ macro(build_mimick)
 
   set(cmake_commands)
   set(cmake_configure_args -Wno-dev)
-  set(cmake_configure_args -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install)
+  list(APPEND cmake_configure_args -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install)
 
   if(WIN32)
     if(DEFINED CMAKE_GENERATOR)
@@ -58,9 +58,13 @@ macro(build_mimick)
   endif()
 
   include(ExternalProject)
-  externalproject_add(mimick-ext
+  set(mimick_version "f171450b5ebaa3d2538c762a059dfc6ab7a01039")
+  externalproject_add(mimick-${mimick_version}
     GIT_REPOSITORY https://github.com/ros2/Mimick.git
-    GIT_TAG f171450b5ebaa3d2538c762a059dfc6ab7a01039
+    GIT_TAG ${mimick_version}
+    GIT_CONFIG advice.detachedHead=false
+    # Suppress git update due to https://gitlab.kitware.com/cmake/cmake/-/issues/16419
+    UPDATE_COMMAND ""
     TIMEOUT 6000
     ${cmake_commands}
     CMAKE_ARGS
