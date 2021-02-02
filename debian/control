@@ -1,0 +1,12 @@
+Source: ros-rolling-mimick-vendor
+Section: misc
+Priority: optional
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), git, ros-rolling-ament-cmake, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-ros-workspace
+Homepage: https://github.com/Snaipe/Mimick
+Standards-Version: 3.9.2
+
+Package: ros-rolling-mimick-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ros-workspace
+Description: Wrapper around mimick, it provides an ExternalProject build of mimick.
