@@ -1,4 +1,4 @@
-From dd1c9100764aae921522cdc77b3d26d850999ae9 Mon Sep 17 00:00:00 2001
+From d9203800e23e7f3888f62dfd48b5785edec977ba Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Mon, 1 Feb 2021 15:16:01 -0800
 Subject: [PATCH] Suppress fortification in RPM builds
@@ -8,7 +8,7 @@ Subject: [PATCH] Suppress fortification in RPM builds
  1 file changed, 3 insertions(+)
 
 diff --git a/rpm/template.spec.em b/rpm/template.spec.em
-index c0d00ea..7885fee 100644
+index f723150..2670cb0 100644
 --- a/rpm/template.spec.em
 +++ b/rpm/template.spec.em
 @@ -31,6 +31,9 @@ Source0:        %{name}-%{version}.tar.gz
@@ -22,5 +22,5 @@ index c0d00ea..7885fee 100644
  # in the install tree and source it.  It will set things like
  # CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
 -- 
-2.29.2
+2.30.2
 
