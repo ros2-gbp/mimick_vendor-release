@@ -77,6 +77,7 @@ macro(build_mimick)
       ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install/
     DESTINATION
       ${CMAKE_INSTALL_PREFIX}
+    USE_SOURCE_PERMISSIONS
   )
 
 endmacro()
