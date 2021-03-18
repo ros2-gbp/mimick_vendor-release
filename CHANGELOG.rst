@@ -2,6 +2,11 @@
 Changelog for package mimick_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.6 (2021-03-18)
+------------------
+* Always preserve source permissions in vendor packages (`#19 <https://github.com/ros2/mimick_vendor/issues/19>`_)
+* Contributors: Scott K Logan
+
 0.2.5 (2021-02-01)
 ------------------
 * Suppress update of pinned git repository (`#17 <https://github.com/ros2/mimick_vendor/issues/17>`_)
