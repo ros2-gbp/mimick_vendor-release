@@ -2,6 +2,23 @@
 Changelog for package mimick_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.6 (2021-03-18)
+------------------
+* Always preserve source permissions in vendor packages (`#19 <https://github.com/ros2/mimick_vendor/issues/19>`_)
+* Contributors: Scott K Logan
+
+0.2.5 (2021-02-01)
+------------------
+* Suppress update of pinned git repository (`#17 <https://github.com/ros2/mimick_vendor/issues/17>`_)
+* Don't overwrite -Wno-dev CMake argument (`#18 <https://github.com/ros2/mimick_vendor/issues/18>`_)
+* Contributors: Scott K Logan
+
+0.2.4 (2021-01-25)
+------------------
+* Add missing build tool dependency on 'git' (`#16 <https://github.com/ros2/mimick_vendor/issues/16>`_)
+* Update tag for armv7l support. (`#15 <https://github.com/ros2/mimick_vendor/issues/15>`_)
+* Contributors: Michel Hidalgo, Scott K Logan
+
 0.2.3 (2020-12-08)
 ------------------
 * Update tag for new cmake version requirement (`#14 <https://github.com/ros2/mimick_vendor/issues/14>`_)
