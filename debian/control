@@ -1,0 +1,12 @@
+Source: ros-galactic-mimick-vendor
+Section: misc
+Priority: optional
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), git, ros-galactic-ament-cmake, ros-galactic-ament-lint-auto, ros-galactic-ament-lint-common, ros-galactic-ros-workspace
+Homepage: https://github.com/Snaipe/Mimick
+Standards-Version: 3.9.2
+
+Package: ros-galactic-mimick-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-ros-workspace
+Description: Wrapper around mimick, it provides an ExternalProject build of mimick.
