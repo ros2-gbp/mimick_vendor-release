@@ -2,6 +2,12 @@
 Changelog for package mimick_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.7 (2022-01-14)
+------------------
+* Update maintainers to Geoffrey Biggs (`#23 <https://github.com/ros2/mimick_vendor/issues/23>`_)
+* Update to latest commit for Apple M1 support (`#20 <https://github.com/ros2/mimick_vendor/issues/20>`_)
+* Contributors: Audrow Nash, Christophe Bedard
+
 0.2.6 (2021-03-18)
 ------------------
 * Always preserve source permissions in vendor packages (`#19 <https://github.com/ros2/mimick_vendor/issues/19>`_)
