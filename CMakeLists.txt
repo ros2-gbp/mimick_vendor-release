@@ -58,7 +58,7 @@ macro(build_mimick)
   endif()
 
   include(ExternalProject)
-  set(mimick_version "f171450b5ebaa3d2538c762a059dfc6ab7a01039")
+  set(mimick_version "4c742d61d4f47a58492c1afbd825fad1c9e05a09")
   externalproject_add(mimick-${mimick_version}
     GIT_REPOSITORY https://github.com/ros2/Mimick.git
     GIT_TAG ${mimick_version}
