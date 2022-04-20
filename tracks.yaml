@@ -77,8 +77,7 @@ tracks:
     ros_distro: humble
     vcs_type: git
     vcs_uri: https://github.com/ros2/mimick_vendor.git
-    version: 0.2.8
-    version_saved: :{auto}
+    version: :{auto}
   rolling:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
