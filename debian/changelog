@@ -1,0 +1,93 @@
+ros-rolling-mimick-vendor (0.3.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Geoffrey Biggs <geoff@openrobotics.org>  Fri, 29 Apr 2022 07:00:00 -0000
+
+ros-rolling-mimick-vendor (0.2.8-1bullseye) bullseye; urgency=high
+
+  * support pi zero (#24 <https://github.com/ros2/mimick_vendor/issues/24>)
+  * Contributors: Brett Downing
+
+ -- Geoffrey Biggs <geoff@openrobotics.org>  Fri, 25 Mar 2022 07:00:00 -0000
+
+ros-rolling-mimick-vendor (0.2.7-1bullseye) bullseye; urgency=high
+
+  * Update maintainers to Geoffrey Biggs (#23 <https://github.com/ros2/mimick_vendor/issues/23>)
+  * Update to latest commit for Apple M1 support (#20 <https://github.com/ros2/mimick_vendor/issues/20>)
+  * Contributors: Audrow Nash, Christophe Bedard
+
+ -- Geoffrey Biggs <geoff@openrobotics.org>  Fri, 14 Jan 2022 08:00:00 -0000
+
+ros-rolling-mimick-vendor (0.2.6-1bullseye) bullseye; urgency=high
+
+  * Always preserve source permissions in vendor packages (#19 <https://github.com/ros2/mimick_vendor/issues/19>)
+  * Contributors: Scott K Logan
+
+ -- Geoffrey Biggs <geoff@openrobotics.org>  Thu, 18 Mar 2021 07:00:00 -0000
+
+ros-rolling-mimick-vendor (0.2.5-1bullseye) bullseye; urgency=high
+
+  * Suppress update of pinned git repository (#17 <https://github.com/ros2/mimick_vendor/issues/17>)
+  * Don't overwrite -Wno-dev CMake argument (#18 <https://github.com/ros2/mimick_vendor/issues/18>)
+  * Contributors: Scott K Logan
+
+ -- Geoffrey Biggs <geoff@openrobotics.org>  Mon, 01 Feb 2021 08:00:00 -0000
+
+ros-rolling-mimick-vendor (0.2.4-1bullseye) bullseye; urgency=high
+
+  * Add missing build tool dependency on 'git' (#16 <https://github.com/ros2/mimick_vendor/issues/16>)
+  * Update tag for armv7l support. (#15 <https://github.com/ros2/mimick_vendor/issues/15>)
+  * Contributors: Michel Hidalgo, Scott K Logan
+
+ -- Geoffrey Biggs <geoff@openrobotics.org>  Mon, 25 Jan 2021 08:00:00 -0000
+
+ros-rolling-mimick-vendor (0.2.3-1bullseye) bullseye; urgency=high
+
+  * Update tag for new cmake version requirement (#14 <https://github.com/ros2/mimick_vendor/issues/14>)
+  * Export include directories (#13 <https://github.com/ros2/mimick_vendor/issues/13>)
+  * Update package maintainers (#10 <https://github.com/ros2/mimick_vendor/issues/10>)
+  * Contributors: Michel Hidalgo, Stephen Brawner
+
+ -- Geoffrey Biggs <geoff@openrobotics.org>  Tue, 08 Dec 2020 08:00:00 -0000
+
+ros-rolling-mimick-vendor (0.2.2-1bullseye) bullseye; urgency=high
+
+  * Suppress cppcheck for MMK_MANGLE_ (#8 <https://github.com/ros2/mimick_vendor/issues/8>)
+  * Change Mimick tagged version. (#7 <https://github.com/ros2/mimick_vendor/issues/7>)
+  * Contributors: Michel Hidalgo, brawner
+
+ -- Geoffrey Biggs <geoff@openrobotics.org>  Fri, 18 Sep 2020 07:00:00 -0000
+
+ros-rolling-mimick-vendor (0.2.1-1bullseye) bullseye; urgency=high
+
+  * Change tag to pull latest Mimick version (#6 <https://github.com/ros2/mimick_vendor/issues/6>)
+  * Contributors: Jorge Perez
+
+ -- Geoffrey Biggs <geoff@openrobotics.org>  Wed, 05 Aug 2020 07:00:00 -0000
+
+ros-rolling-mimick-vendor (0.2.0-1bullseye) bullseye; urgency=high
+
+  * Pin Mimick version. (#5 <https://github.com/ros2/mimick_vendor/issues/5>)
+  * Contributors: Michel Hidalgo
+
+ -- Geoffrey Biggs <geoff@openrobotics.org>  Thu, 30 Jul 2020 07:00:00 -0000
+
+ros-rolling-mimick-vendor (0.1.1-1bullseye) bullseye; urgency=high
+
+  * Change imported dep to match ROS 2 fork (#4 <https://github.com/ros2/mimick_vendor/issues/4>)
+  * Contributors: Jorge Perez
+
+ -- Geoffrey Biggs <geoff@openrobotics.org>  Wed, 29 Jul 2020 07:00:00 -0000
+
+ros-rolling-mimick-vendor (0.1.0-1bullseye) bullseye; urgency=high
+
+  * Avoid CMAKE_BUILD_TYPE warnings on Windows. (#3 <https://github.com/ros2/mimick_vendor/issues/3>)
+  * Remove dep tag + add maintainer(#2 <https://github.com/ros2/mimick_vendor/issues/2>)
+  * Configure MSVC x64 builds when appropriate. (#1 <https://github.com/ros2/mimick_vendor/issues/1>)
+  * First iteration vendor for Mimick library
+  * Contributors: Jorge Perez, Michel Hidalgo
+
+ -- Geoffrey Biggs <geoff@openrobotics.org>  Tue, 28 Jul 2020 07:00:00 -0000
+
+
