@@ -35,6 +35,7 @@ Source0:        %{name}-%{version}.tar.gz
 
 %build
 # Suppress fortification, which conflicts with Mimick's -O0 requirement
+%undefine _annotated_build
 export CFLAGS="${CFLAGS:-%{optflags}} -Wp,-U_FORTIFY_SOURCE"
 
 # In case we're installing to a non-standard location, look for a setup.sh
