@@ -1,0 +1,12 @@
+Source: ros-iron-mimick-vendor
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), git, ros-iron-ament-cmake, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-ros-workspace
+Homepage: https://github.com/Snaipe/Mimick
+Standards-Version: 3.9.2
+
+Package: ros-iron-mimick-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ros-workspace
+Description: Wrapper around mimick, it provides an ExternalProject build of mimick.
