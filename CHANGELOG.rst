@@ -2,6 +2,9 @@
 Changelog for package mimick_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.0 (2023-04-27)
+------------------
+
 0.3.2 (2023-02-14)
 ------------------
 * [rolling] Update maintainers - 2022-11-07 (`#29 <https://github.com/ros2/mimick_vendor/issues/29>`_)
