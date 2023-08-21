@@ -2,6 +2,12 @@
 Changelog for package mimick_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.0 (2023-08-21)
+------------------
+* Update to the comment that fixes the executable stack. (`#32 <https://github.com/ros2/mimick_vendor/issues/32>`_)
+* Update to take advantage of TARGET_ARCH (`#28 <https://github.com/ros2/mimick_vendor/issues/28>`_)
+* Contributors: Chris Lalancette, Michael Carroll
+
 0.4.1 (2023-07-11)
 ------------------
 * Switch to ament_cmake_vendor_package (`#31 <https://github.com/ros2/mimick_vendor/issues/31>`_)
