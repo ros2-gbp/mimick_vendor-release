@@ -2,6 +2,11 @@
 Changelog for package mimick_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.0 (2023-11-06)
+------------------
+* Update to the commit the fixes exe stack on macOS. (`#33 <https://github.com/ros2/mimick_vendor/issues/33>`_)
+* Contributors: Chris Lalancette
+
 0.5.0 (2023-08-21)
 ------------------
 * Update to the comment that fixes the executable stack. (`#32 <https://github.com/ros2/mimick_vendor/issues/32>`_)
