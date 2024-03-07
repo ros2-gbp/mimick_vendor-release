@@ -1,0 +1,27 @@
+From 5f2b89bccd84cb9d4817eeabedca6f9542f43569 Mon Sep 17 00:00:00 2001
+From: Scott K Logan <logans@cottsay.net>
+Date: Mon, 1 Feb 2021 15:16:01 -0800
+Subject: [PATCH] Suppress fortification in RPM builds
+
+---
+ rpm/template.spec.em | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/rpm/template.spec.em b/rpm/template.spec.em
+index bebb96b6a6a5..a2f89e810d94 100644
+--- a/rpm/template.spec.em
++++ b/rpm/template.spec.em
+@@ -34,6 +34,10 @@ Source0:        %{name}-%{version}.tar.gz
+ %autosetup -p1
+ 
+ %build
++# Suppress fortification, which conflicts with Mimick's -O0 requirement
++%undefine _annotated_build
++export CFLAGS="${CFLAGS:-%{optflags}} -Wp,-U_FORTIFY_SOURCE"
++
+ # In case we're installing to a non-standard location, look for a setup.sh
+ # in the install tree and source it.  It will set things like
+ # CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+-- 
+2.44.0
+
