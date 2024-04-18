@@ -1,0 +1,12 @@
+Source: ros-jazzy-mimick-vendor
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-vendor-package, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ros-workspace
+Homepage: https://github.com/Snaipe/Mimick
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-mimick-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ros-workspace
+Description: Wrapper around mimick, it provides an ExternalProject build of mimick.
