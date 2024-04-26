@@ -2,6 +2,9 @@
 Changelog for package mimick_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.0 (2024-04-26)
+------------------
+
 0.6.1 (2024-03-28)
 ------------------
 * Bump vendored mimick version for `ros2/Mimick#32 <https://github.com/ros2/Mimick/issues/32>`_ (`#35 <https://github.com/ros2/mimick_vendor/issues/35>`_)
