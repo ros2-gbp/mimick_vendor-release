@@ -2,6 +2,11 @@
 Changelog for package mimick_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.8.0 (2024-06-17)
+------------------
+* Update to the commit that includes DT_GNU_HASH. (`#37 <https://github.com/ros2/mimick_vendor/issues/37>`_)
+* Contributors: Chris Lalancette
+
 0.7.0 (2024-04-26)
 ------------------
 
