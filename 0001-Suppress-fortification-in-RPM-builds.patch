@@ -1,4 +1,4 @@
-From 88e6c03d8f4bf8b36a8b88348f028e83719f0362 Mon Sep 17 00:00:00 2001
+From b2c29498e77a080ac270a3fc858915d57c6f13d9 Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Mon, 1 Feb 2021 15:16:01 -0800
 Subject: [PATCH] Suppress fortification in RPM builds
@@ -23,5 +23,5 @@ index bebb96b..a2f89e8 100644
  # in the install tree and source it.  It will set things like
  # CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
 -- 
-2.44.0.769.g3c40516874-goog
+2.43.0
 
