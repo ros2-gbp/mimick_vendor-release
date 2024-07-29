@@ -1,4 +1,4 @@
-From b2c29498e77a080ac270a3fc858915d57c6f13d9 Mon Sep 17 00:00:00 2001
+From 439a63e9cffaf7aff4f28e816e2d026b3f9b328b Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Mon, 1 Feb 2021 15:16:01 -0800
 Subject: [PATCH] Suppress fortification in RPM builds
