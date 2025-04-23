@@ -1,0 +1,163 @@
+ros-kilted-mimick-vendor (0.8.1-2noble) noble; urgency=high
+
+  * Update hash to fix windows failures (#39 <https://github.com/ros2/mimick_vendor/issues/39>)
+  * Contributors: Alejandro Hernández Cordero
+
+ -- Scott K Logan <scott@openrobotics.org>  Mon, 29 Jul 2024 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.8.0-2noble) noble; urgency=high
+
+  * Update to the commit that includes DT_GNU_HASH. (#37 <https://github.com/ros2/mimick_vendor/issues/37>)
+  * Contributors: Chris Lalancette
+
+ -- Scott K Logan <scott@openrobotics.org>  Mon, 17 Jun 2024 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.7.0-2noble) noble; urgency=high
+
+
+
+ -- Scott K Logan <scott@openrobotics.org>  Fri, 26 Apr 2024 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.6.1-2noble) noble; urgency=high
+
+  * Bump vendored mimick version for ros2/Mimick#32 <https://github.com/ros2/Mimick/issues/32> (#35 <https://github.com/ros2/mimick_vendor/issues/35>)
+  * Update to the commit that fixes mmk_noreturn. (#34 <https://github.com/ros2/mimick_vendor/issues/34>)
+  * Contributors: Chris Lalancette, Michael Carroll
+
+ -- Scott K Logan <scott@openrobotics.org>  Thu, 28 Mar 2024 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.6.0-2noble) noble; urgency=high
+
+  * Update to the commit the fixes exe stack on macOS. (#33 <https://github.com/ros2/mimick_vendor/issues/33>)
+  * Contributors: Chris Lalancette
+
+ -- Scott K Logan <scott@openrobotics.org>  Mon, 06 Nov 2023 06:00:00 -0000
+
+ros-kilted-mimick-vendor (0.5.0-2noble) noble; urgency=high
+
+  * Update to the comment that fixes the executable stack. (#32 <https://github.com/ros2/mimick_vendor/issues/32>)
+  * Update to take advantage of TARGET_ARCH (#28 <https://github.com/ros2/mimick_vendor/issues/28>)
+  * Contributors: Chris Lalancette, Michael Carroll
+
+ -- Scott K Logan <scott@openrobotics.org>  Mon, 21 Aug 2023 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.4.1-2noble) noble; urgency=high
+
+  * Switch to ament_cmake_vendor_package (#31 <https://github.com/ros2/mimick_vendor/issues/31>)
+  * Contributors: Scott K Logan
+
+ -- Scott K Logan <scott@openrobotics.org>  Tue, 11 Jul 2023 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.4.0-2noble) noble; urgency=high
+
+
+
+ -- Scott K Logan <scott@openrobotics.org>  Thu, 27 Apr 2023 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.3.2-2noble) noble; urgency=high
+
+  * [rolling] Update maintainers - 2022-11-07 (#29 <https://github.com/ros2/mimick_vendor/issues/29>)
+  * Contributors: Audrow Nash
+
+ -- Scott K Logan <scott@openrobotics.org>  Tue, 14 Feb 2023 06:00:00 -0000
+
+ros-kilted-mimick-vendor (0.3.1-2noble) noble; urgency=high
+
+  * Mirror rolling to master
+  * Contributors: Audrow Nash
+
+ -- Scott K Logan <scott@openrobotics.org>  Tue, 13 Sep 2022 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.3.0-2noble) noble; urgency=high
+
+
+
+ -- Scott K Logan <scott@openrobotics.org>  Fri, 29 Apr 2022 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.2.8-2noble) noble; urgency=high
+
+  * support pi zero (#24 <https://github.com/ros2/mimick_vendor/issues/24>)
+  * Contributors: Brett Downing
+
+ -- Scott K Logan <scott@openrobotics.org>  Fri, 25 Mar 2022 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.2.7-2noble) noble; urgency=high
+
+  * Update maintainers to Geoffrey Biggs (#23 <https://github.com/ros2/mimick_vendor/issues/23>)
+  * Update to latest commit for Apple M1 support (#20 <https://github.com/ros2/mimick_vendor/issues/20>)
+  * Contributors: Audrow Nash, Christophe Bedard
+
+ -- Scott K Logan <scott@openrobotics.org>  Fri, 14 Jan 2022 06:00:00 -0000
+
+ros-kilted-mimick-vendor (0.2.6-2noble) noble; urgency=high
+
+  * Always preserve source permissions in vendor packages (#19 <https://github.com/ros2/mimick_vendor/issues/19>)
+  * Contributors: Scott K Logan
+
+ -- Scott K Logan <scott@openrobotics.org>  Thu, 18 Mar 2021 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.2.5-2noble) noble; urgency=high
+
+  * Suppress update of pinned git repository (#17 <https://github.com/ros2/mimick_vendor/issues/17>)
+  * Don't overwrite -Wno-dev CMake argument (#18 <https://github.com/ros2/mimick_vendor/issues/18>)
+  * Contributors: Scott K Logan
+
+ -- Scott K Logan <scott@openrobotics.org>  Mon, 01 Feb 2021 06:00:00 -0000
+
+ros-kilted-mimick-vendor (0.2.4-2noble) noble; urgency=high
+
+  * Add missing build tool dependency on 'git' (#16 <https://github.com/ros2/mimick_vendor/issues/16>)
+  * Update tag for armv7l support. (#15 <https://github.com/ros2/mimick_vendor/issues/15>)
+  * Contributors: Michel Hidalgo, Scott K Logan
+
+ -- Scott K Logan <scott@openrobotics.org>  Mon, 25 Jan 2021 06:00:00 -0000
+
+ros-kilted-mimick-vendor (0.2.3-2noble) noble; urgency=high
+
+  * Update tag for new cmake version requirement (#14 <https://github.com/ros2/mimick_vendor/issues/14>)
+  * Export include directories (#13 <https://github.com/ros2/mimick_vendor/issues/13>)
+  * Update package maintainers (#10 <https://github.com/ros2/mimick_vendor/issues/10>)
+  * Contributors: Michel Hidalgo, Stephen Brawner
+
+ -- Scott K Logan <scott@openrobotics.org>  Tue, 08 Dec 2020 06:00:00 -0000
+
+ros-kilted-mimick-vendor (0.2.2-2noble) noble; urgency=high
+
+  * Suppress cppcheck for MMK_MANGLE_ (#8 <https://github.com/ros2/mimick_vendor/issues/8>)
+  * Change Mimick tagged version. (#7 <https://github.com/ros2/mimick_vendor/issues/7>)
+  * Contributors: Michel Hidalgo, brawner
+
+ -- Scott K Logan <scott@openrobotics.org>  Fri, 18 Sep 2020 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.2.1-2noble) noble; urgency=high
+
+  * Change tag to pull latest Mimick version (#6 <https://github.com/ros2/mimick_vendor/issues/6>)
+  * Contributors: Jorge Perez
+
+ -- Scott K Logan <scott@openrobotics.org>  Wed, 05 Aug 2020 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.2.0-2noble) noble; urgency=high
+
+  * Pin Mimick version. (#5 <https://github.com/ros2/mimick_vendor/issues/5>)
+  * Contributors: Michel Hidalgo
+
+ -- Scott K Logan <scott@openrobotics.org>  Thu, 30 Jul 2020 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.1.1-2noble) noble; urgency=high
+
+  * Change imported dep to match ROS 2 fork (#4 <https://github.com/ros2/mimick_vendor/issues/4>)
+  * Contributors: Jorge Perez
+
+ -- Scott K Logan <scott@openrobotics.org>  Wed, 29 Jul 2020 05:00:00 -0000
+
+ros-kilted-mimick-vendor (0.1.0-2noble) noble; urgency=high
+
+  * Avoid CMAKE_BUILD_TYPE warnings on Windows. (#3 <https://github.com/ros2/mimick_vendor/issues/3>)
+  * Remove dep tag + add maintainer(#2 <https://github.com/ros2/mimick_vendor/issues/2>)
+  * Configure MSVC x64 builds when appropriate. (#1 <https://github.com/ros2/mimick_vendor/issues/1>)
+  * First iteration vendor for Mimick library
+  * Contributors: Jorge Perez, Michel Hidalgo
+
+ -- Scott K Logan <scott@openrobotics.org>  Tue, 28 Jul 2020 05:00:00 -0000
+
+
