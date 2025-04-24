@@ -2,6 +2,11 @@
 Changelog for package mimick_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.9.0 (2025-04-24)
+------------------
+* Remove CODEOWNERS and mirror-rolling-to-master workflow. (`#40 <https://github.com/ros2/mimick_vendor/issues/40>`_)
+* Contributors: Chris Lalancette
+
 0.8.1 (2024-07-29)
 ------------------
 * Update hash to fix windows failures (`#39 <https://github.com/ros2/mimick_vendor/issues/39>`_)
