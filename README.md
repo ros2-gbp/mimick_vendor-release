@@ -1,3 +1,26 @@
+## mimick_vendor (rolling) - 0.10.0-1
+
+The packages in the `mimick_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling mimick_vendor` on `Wed, 06 May 2026 18:41:10 -0000`
+
+The `mimick_vendor` package was released.
+
+Version of package(s) in repository `mimick_vendor`:
+
+- upstream repository: https://github.com/ros2/mimick_vendor.git
+- release repository: https://github.com/ros2-gbp/mimick_vendor-release.git
+- rosdistro version: `0.9.0-2`
+- old version: `0.9.0-2`
+- new version: `0.10.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## mimick_vendor (rolling) - 0.9.0-1
 
 The packages in the `mimick_vendor` repository were released into the `rolling` distro by running `/home/cottsay/infra_ws/install/bloom/bin/bloom-release mimick_vendor -r rolling` on `Thu, 24 Apr 2025 19:46:16 -0000`
