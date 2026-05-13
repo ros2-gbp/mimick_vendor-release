@@ -1,0 +1,27 @@
+From 58e53f58e269fd5600c800017cf73bc3a66ab719 Mon Sep 17 00:00:00 2001
+From: Scott K Logan <logans@cottsay.net>
+Date: Mon, 1 Feb 2021 15:16:01 -0800
+Subject: [PATCH] Suppress fortification in RPM builds
+
+---
+ rpm/ros-rolling-mimick-vendor.spec | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/rpm/ros-rolling-mimick-vendor.spec b/rpm/ros-rolling-mimick-vendor.spec
+index f5c45c32d88c..22da4bdf09da 100644
+--- a/rpm/ros-rolling-mimick-vendor.spec
++++ b/rpm/ros-rolling-mimick-vendor.spec
+@@ -48,6 +48,10 @@ Wrapper around mimick, it provides an ExternalProject build of mimick.
+ 
+ 
+ %build
++# Suppress fortification, which conflicts with Mimick's -O0 requirement
++%undefine _annotated_build
++export CFLAGS="${CFLAGS:-%{optflags}} -Wp,-U_FORTIFY_SOURCE"
++
+ %cmake \
+     -UINCLUDE_INSTALL_DIR \
+     -ULIB_INSTALL_DIR \
+-- 
+2.54.0
+
